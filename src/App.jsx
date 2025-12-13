@@ -21,7 +21,7 @@ function App() {
           </div>
           <div>
             <p>Mark Lights' Portfolio?</p>
-            <a href="https://markjarredlights.com" target="_blank">
+            <a href="https://markjarredlights.com" target="_self">
               Yes? Then Click Me!
             </a>
           </div>
@@ -32,7 +32,7 @@ function App() {
           </div>
           <div>
             <p>Lights Finance application?</p>
-            <a href="https://marks-pi.com/finance" target="_blank">
+            <a href="https://marks-pi.com/finance" target="_self">
               Yes? Then Click Me!
             </a>
           </div>
@@ -43,7 +43,7 @@ function App() {
           </div>
           <div>
             <p>Mark Lights' Github?</p>
-            <a href="https://github.com/DevMarkLights" target="_blank">
+            <a href="https://github.com/DevMarkLights" target="_self">
               Yes? Then Click Me!
             </a>
           </div>
@@ -54,7 +54,7 @@ function App() {
           </div>
           <div>
             <p>Mark Lights' LinkedIn?</p>
-            <a href="https://linkedin.com/in/mark-lights-1141811bb" target="_blank">
+            <a href="https://linkedin.com/in/mark-lights-1141811bb" target="_self">
               Yes? Then Click Me!
             </a>
           </div>
