@@ -65,7 +65,7 @@ function App() {
           </div> */}
           <div>
             <p>Rag Pipeline?</p>
-            <a href="https://https://marks-pi.com/rag/" target="_self">
+            <a href="https://marks-pi.com/rag/" target="_self">
               Yes? Then Click Me!
             </a>
           </div>
