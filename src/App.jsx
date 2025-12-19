@@ -58,8 +58,19 @@ function App() {
               Yes? Then Click Me!
             </a>
           </div>
-          
         </div>
+        <div className='container'>
+          {/* <div>
+            <img className='lights' src={linkedin_logo}/>
+          </div> */}
+          <div>
+            <p>Rag Pipeline?</p>
+            <a href="https://https://marks-pi.com/rag/" target="_self">
+              Yes? Then Click Me!
+            </a>
+          </div>
+        </div>
+        
       </div>
       {/* <h1>Vite + React</h1> */}
       {/* <div className="card">
