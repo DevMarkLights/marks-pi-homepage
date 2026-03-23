@@ -61,6 +61,14 @@ function App() {
         </div>
         <div className='container'>
           <div>
+            <p>AI Researcher?</p>
+            <a href="https://marks-pi.com/ai-researcher/" target="_self">
+              Yes? Then Click Me!
+            </a>
+          </div>
+        </div>
+        <div className='container'>
+          <div>
             <p>Rag Pipeline?</p>
             <a href="https://marks-pi.com/rag/" target="_self">
               Yes? Then Click Me!
