@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import lights_logo from './assets/lights_logo.png'
@@ -13,7 +13,23 @@ import './App.css'
 
 function App() {
   const [projectsOpen, setProjectsOpen] = useState(false)
+  const [mobile,setMobile] = useState(false)
 
+  useEffect(() =>{
+    window.addEventListener('resize', ()=>{
+      if(window.outerWidth < 600){
+        setMobile(true)
+      }else{
+        setMobile(false)
+      }
+    })
+
+    if(window.outerWidth < 600){
+      setMobile(true)
+    }else{
+      setMobile(false)
+    }
+  },[])
   return (
     <>
       <div>
@@ -75,7 +91,7 @@ function App() {
             </div>
           </div>
         {projectsOpen &&
-          <div style={{display:'flex', flexDirection:'row', flexWrap:'wrap', justifyContent:'space-around', width:'792px'}}>
+          <div style={{display:'flex', flexDirection:'row', flexWrap:'wrap', justifyContent:'space-around', width: mobile ? '366px' :'792px'}}>
             <div className='container' style={{width:'200px'}}>
               <div>
                 <img className='lights_logo' src={aiInterviewCoachLogo}/>
