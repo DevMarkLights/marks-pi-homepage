@@ -7,6 +7,7 @@ import github_logo from './assets/github.png'
 import linkedin_logo from './assets/InBug-White.png'
 import aiInterviewCoachLogo from './assets/meeting.svg'
 import aiReseacherLogo from './assets/ai_researcher_lettermark_v4.svg'
+import utilitiesLogo from './assets/utilities-terminal.svg'
 import down from './assets/down.svg'
 import up from './assets/up.svg'
 import './App.css'
@@ -140,7 +141,7 @@ function App() {
             </div>
           </div>
         }
-
+        <a href='https://marks-pi.com/utilities/' target='_self'> <img className='lights_logo'  src={utilitiesLogo}/>Utilities</a>
       </div>
     </>
   )
